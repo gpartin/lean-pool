@@ -70,146 +70,15 @@ def v32C19FourthExpandedTerm
   | 16 => (momentum 1 - momentum 2) ^ 4
   | _ => (momentum 1 + momentum 2) ^ 4
 
-private theorem v32_c19_fourth_term_0 (momentum : LatticeMomentum) :
-    c19Weight (0 : C19Neighbor) * c19PhaseAngle momentum 0 ^ 4 =
-      v32C19FourthExpandedTerm momentum 0 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-
-private theorem v32_c19_fourth_term_1 (momentum : LatticeMomentum) :
-    c19Weight (1 : C19Neighbor) * c19PhaseAngle momentum 1 ^ 4 =
-      v32C19FourthExpandedTerm momentum 1 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-  ring
-
-private theorem v32_c19_fourth_term_2 (momentum : LatticeMomentum) :
-    c19Weight (2 : C19Neighbor) * c19PhaseAngle momentum 2 ^ 4 =
-      v32C19FourthExpandedTerm momentum 2 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-
-private theorem v32_c19_fourth_term_3 (momentum : LatticeMomentum) :
-    c19Weight (3 : C19Neighbor) * c19PhaseAngle momentum 3 ^ 4 =
-      v32C19FourthExpandedTerm momentum 3 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-  ring
-
-private theorem v32_c19_fourth_term_4 (momentum : LatticeMomentum) :
-    c19Weight (4 : C19Neighbor) * c19PhaseAngle momentum 4 ^ 4 =
-      v32C19FourthExpandedTerm momentum 4 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-
-private theorem v32_c19_fourth_term_5 (momentum : LatticeMomentum) :
-    c19Weight (5 : C19Neighbor) * c19PhaseAngle momentum 5 ^ 4 =
-      v32C19FourthExpandedTerm momentum 5 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-  ring
-
-private theorem v32_c19_fourth_term_6 (momentum : LatticeMomentum) :
-    c19Weight (6 : C19Neighbor) * c19PhaseAngle momentum 6 ^ 4 =
-      v32C19FourthExpandedTerm momentum 6 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-  ring
-
-private theorem v32_c19_fourth_term_7 (momentum : LatticeMomentum) :
-    c19Weight (7 : C19Neighbor) * c19PhaseAngle momentum 7 ^ 4 =
-      v32C19FourthExpandedTerm momentum 7 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-
-private theorem v32_c19_fourth_term_8 (momentum : LatticeMomentum) :
-    c19Weight (8 : C19Neighbor) * c19PhaseAngle momentum 8 ^ 4 =
-      v32C19FourthExpandedTerm momentum 8 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-  ring
-
-private theorem v32_c19_fourth_term_9 (momentum : LatticeMomentum) :
-    c19Weight (9 : C19Neighbor) * c19PhaseAngle momentum 9 ^ 4 =
-      v32C19FourthExpandedTerm momentum 9 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-
-private theorem v32_c19_fourth_term_10 (momentum : LatticeMomentum) :
-    c19Weight (10 : C19Neighbor) * c19PhaseAngle momentum 10 ^ 4 =
-      v32C19FourthExpandedTerm momentum 10 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-  ring
-
-private theorem v32_c19_fourth_term_11 (momentum : LatticeMomentum) :
-    c19Weight (11 : C19Neighbor) * c19PhaseAngle momentum 11 ^ 4 =
-      v32C19FourthExpandedTerm momentum 11 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-
-private theorem v32_c19_fourth_term_12 (momentum : LatticeMomentum) :
-    c19Weight (12 : C19Neighbor) * c19PhaseAngle momentum 12 ^ 4 =
-      v32C19FourthExpandedTerm momentum 12 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-  ring
-
-private theorem v32_c19_fourth_term_13 (momentum : LatticeMomentum) :
-    c19Weight (13 : C19Neighbor) * c19PhaseAngle momentum 13 ^ 4 =
-      v32C19FourthExpandedTerm momentum 13 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-
-private theorem v32_c19_fourth_term_14 (momentum : LatticeMomentum) :
-    c19Weight (14 : C19Neighbor) * c19PhaseAngle momentum 14 ^ 4 =
-      v32C19FourthExpandedTerm momentum 14 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-  ring
-
-private theorem v32_c19_fourth_term_15 (momentum : LatticeMomentum) :
-    c19Weight (15 : C19Neighbor) * c19PhaseAngle momentum 15 ^ 4 =
-      v32C19FourthExpandedTerm momentum 15 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-
-private theorem v32_c19_fourth_term_16 (momentum : LatticeMomentum) :
-    c19Weight (16 : C19Neighbor) * c19PhaseAngle momentum 16 ^ 4 =
-      v32C19FourthExpandedTerm momentum 16 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-  ring
-
-private theorem v32_c19_fourth_term_17 (momentum : LatticeMomentum) :
-    c19Weight (17 : C19Neighbor) * c19PhaseAngle momentum 17 ^ 4 =
-      v32C19FourthExpandedTerm momentum 17 := by
-  simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
-    Fin.sum_univ_succ]
-
+set_option maxHeartbeats 400000 in
+-- The single C19 proof normalizes all 18 symbolic polynomial branches.
 theorem v32_c19_fourth_summand_expansion
     (momentum : LatticeMomentum) (direction : C19Neighbor) :
     c19Weight direction * c19PhaseAngle momentum direction ^ 4 =
       v32C19FourthExpandedTerm momentum direction := by
-  fin_cases direction
-  · exact v32_c19_fourth_term_0 momentum
-  · exact v32_c19_fourth_term_1 momentum
-  · exact v32_c19_fourth_term_2 momentum
-  · exact v32_c19_fourth_term_3 momentum
-  · exact v32_c19_fourth_term_4 momentum
-  · exact v32_c19_fourth_term_5 momentum
-  · exact v32_c19_fourth_term_6 momentum
-  · exact v32_c19_fourth_term_7 momentum
-  · exact v32_c19_fourth_term_8 momentum
-  · exact v32_c19_fourth_term_9 momentum
-  · exact v32_c19_fourth_term_10 momentum
-  · exact v32_c19_fourth_term_11 momentum
-  · exact v32_c19_fourth_term_12 momentum
-  · exact v32_c19_fourth_term_13 momentum
-  · exact v32_c19_fourth_term_14 momentum
-  · exact v32_c19_fourth_term_15 momentum
-  · exact v32_c19_fourth_term_16 momentum
-  · exact v32_c19_fourth_term_17 momentum
+  fin_cases direction <;>
+    simp [v32C19FourthExpandedTerm, c19Weight, c19PhaseAngle, c19Coord,
+      Fin.sum_univ_succ] <;> ring
 
 /-- The leading (quartic) spatial correction is rotationally isotropic. -/
 theorem v32_c19_fourth_phase_moment_isotropic (momentum : LatticeMomentum) :
